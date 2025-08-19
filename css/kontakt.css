@@ -1,0 +1,454 @@
+@charset "utf-8";
+/* CSS Document */
+/*incolla sempre la figure*/
+/* karla-300 - latin */
+/* inconsolata-300 - latin */
+/* karla-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/karla-v31-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* karla-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/karla-v31-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* karla-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/karla-v31-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* karla-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Karla';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/karla-v31-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* karla-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/karla-v31-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/inconsolata-v32-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inconsolata-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/inconsolata-v32-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inconsolata-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/inconsolata-v32-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inconsolata-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/inconsolata-v32-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inconsolata-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/inconsolata-v32-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inconsolata-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/inconsolata-v32-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html {
+     height: auto;
+     padding:
+          0;
+     margin:
+          0;
+     border:
+          0;
+     background-color: #ffffff;
+     font-family: Inconsolata,Helvetica, Arial, sans-serif;
+}
+body {
+     background: #ffffff;
+     color: #444444;
+     font-family: Inconsolata,karla,Aften, sans-serif Screen Regular;
+     font-size: 14px;
+     overflow-x: hidden;
+     position: relative;
+     height: 100%;
+     margin:
+          0;
+     border:
+          0;
+}
+figure {
+     height: 100px;
+     width: 100px;
+     margin:
+          auto;
+     padding:
+          0;
+     border:
+          0;
+}
+img {
+     width: 100%;
+     display: block;
+}
+h2{
+     margin-bottom: 20px;
+}
+h1{
+     font-size: 1.5rem;
+     margin-top: 0.5rem;
+}
+p{
+     font-family: karla, sans-serif;
+     font-size: 0.8rem;
+     font-weight: 400;
+}
+h4 {
+     margin-bottom: 0.8rem;
+     font-size: 1rem;
+}
+em{
+     font-weight: 100;
+     font-size: 0.6rem;
+}
+ul {
+     list-style: none;
+}
+.navbar {
+     position: relative;
+     width: 100%;
+     height: auto;
+     background: white;
+     padding: 10px 20px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+#menu-toggle {
+     display: none;
+}
+.menu-btn {
+     display: flex;
+     flex-direction: column;
+     gap: 6px;
+     cursor: pointer;
+     z-index: 10;
+     position: absolute;
+     right: 20px;
+     top: 30px;
+}
+.menu-btn span {
+     background: black;
+     height: 4px;
+     width: 30px;
+     border-radius: 5px;
+     transition: 0.4s;
+     display: block;
+}
+.nav-list {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100vh;
+     background: rgba(255, 255, 255, 0.9);
+     text-align: center;
+     padding: 80px 0;
+     transform: translateY(-100%);
+     opacity: 0;
+     visibility: hidden;
+     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+.nav-list li {
+     list-style: none;
+     padding: 15px;
+}
+.nav-list a {
+     color: black;
+     color: #161609;
+     font-family: Inconsolata, monospace;
+     font-size: 10px;
+     line-height: 2;
+     text-decoration:
+          none;
+     cursor: pointer;
+}
+.nav-list .in a img,
+.nav-list .tw a img,
+.nav-list .ln a img {
+  transition: filter 0.3s ease;
+}
+
+.nav-list .in a:hover img,
+.nav-list .tw a:hover img,
+.nav-list .ln a:hover img {
+  filter: brightness(0) saturate(100%) invert(76%) sepia(27%) saturate(356%) hue-rotate(1deg) brightness(92%) contrast(90%);
+}
+#menu-toggle:checked ~ .nav-list {
+     transform: translateY(0);
+     opacity: 1;
+     visibility: visible;
+}
+#menu-toggle:checked + .menu-btn span:nth-child(1) {
+     transform: rotate(45deg) translate(5px, 5px);
+}
+#menu-toggle:checked + .menu-btn span:nth-child(2) {
+     opacity: 0;
+}
+#menu-toggle:checked + .menu-btn span:nth-child(3) {
+     transform: rotate(-45deg) translate(5px, -5px);
+}
+
+
+.in {
+     height: 20px;
+     width: 20px;
+     margin: 5px;
+     float: left;
+     margin-top: 20px;
+     margin-left: 30px;
+}
+#socials img {
+     width: 20px; height:auto;
+     display: inline;vertical-align:middle;
+     margin-right: 1em;
+}
+#socials ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#socials li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+#socials a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; 
+  text-decoration: none;
+  color: rgba(182,182,182,1.00); 
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#socials a img {
+  width: 20px;
+  height: 20px;
+  transition: filter 0.3s ease;
+}
+
+/* Hover effect */
+#socials a:hover {
+  color: rgba(51,192,230,1.00); 
+  transform: translateX(5px); 
+}
+
+.nav-list .ln {
+     height: 20px;
+     width: 20px;
+     margin: 5px;
+     float: left;
+     margin-top: 20px;
+}
+.nav-list .tw {
+     height: 20px;
+     width: 20px;
+     margin: 5px;
+     margin-top: 20px;
+     float: left;}
+.buttonb {
+     margin-top: 2rem;
+     background: none;
+     text-decoration: none;
+     color: #616161;
+     border: solid 2px rgba(182,182,182,1.00);
+     border-radius: 0.5em;
+     display: inline-block;
+     transition: 0.5s all;
+     padding: 0.3rem 0.2rem 0.3rem ;
+}
+.buttonb:hover {
+     
+     color: rgba(51,192,230,1.00);}
+fieldset {
+     width: 60%;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 30px;
+  background: #fafafa;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+legend {
+  font-size: 1.5rem;
+  padding: 0 10px;
+  font-weight: bold;
+  color: #333;
+}
+.formular > div {
+  margin-bottom: 15px;
+}
+
+.formular label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+.form {
+     margin-top: 20px;
+}
+.text {
+     margin: 10px;
+}
+.formular {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+input[type=text] {
+  transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+  background-color: lightblue;
+     width: 100%;
+}
+input[type=email]:focus {
+  background-color: lightblue;
+     width: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+     .menu-btn {
+          display: none;
+     }
+     .logo {
+          display: none;
+     }
+     .wrapper {
+          padding-right: 40px;
+          padding-bottom: 60px;
+     }
+     .nav-list {
+          position: fixed;
+          transform: none;
+          opacity: 1;
+          visibility: visible;
+          background: none;
+          width: 23%;
+          max-width: 210px;
+          float: left;
+          margin-right: 2%;
+          border-right:
+               1px solid #ffffff;
+          overflow:
+               auto;
+          padding:
+               4% 1% 0 3%;
+          left: 0;
+          top: 0;
+     }
+     .side {
+          float: left;
+     }
+     .nav-list li {
+          margin:
+               0;
+          padding:
+               10px;
+          border:
+               0;
+     }
+          body {
+          display: flex;
+     }
+     .contentwrapper{
+     flex: 3;
+}
+.side {
+     flex: 1;
+}
+}
+.col {
+     margin: 0 0.5rem 0.5rem;
+}
+.col-12 {
+     width: calc(100% - 2rem);
+}
+.col-8 {
+     width: calc(66.6666% - 2rem);
+}
+.col-6 {
+     width: calc(50% - 2rem);
+}
+.col-4 {
+     width: calc(33.3333% - 2rem);
+}
+.col-2 {
+     width: calc(25% - 2rem);
+}
+.row {
+     display: flex;
+     flex-wrap: wrap;
+     max-width: 960px;
+     padding: 1rem 0 0 1rem;
+     margin: 0 auto 1rem auto;
+}
+
