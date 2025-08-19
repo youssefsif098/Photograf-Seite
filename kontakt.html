@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Kontakt - Leo Kircheisen</title>
+<link href="css/kontakt.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<header class="side">
+     <nav class="nav-wrapper">
+          <div class="navbar">
+               <figure class="logo"> <img src="img/logo+.svg" alt="Logo Leo Kircheisen"> </figure>
+               <input type="checkbox" id="menu-toggle">
+               <label for="menu-toggle" class="menu-btn"> <span></span> <span></span> <span></span> </label>
+               
+               
+               <ul class="nav-list">
+                    <figure class="logo0"> <img src="img/logo+.svg" alt="Logo Leo Kircheisen klein"> </figure>
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="Person.html">Person, Vita / Philosophie</a></li>
+                    <li><a href="content.html">Content</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    
+          
+                    <div class="social-icons">
+                         <div class="in"> <a href="#"><img src="img/instagram.svg" alt="Instagram Icon"></a> </div>
+                         <div class="tw"> <a href="#"><img src="img/twitter.svg" alt="Twitter Icon"></a> </div>
+                         <div class="ln"> <a href="#"><img src="img/linkedin.svg" alt="LinkedIn Icon"></a> </div>
+                    </div>
+               </ul>
+          </div>
+     </nav>
+</header>
+<main class="contentwrapper"> 
+     
+
+     <section class="row" id="info">
+          <article class="col col-12" id="Kontakt">
+               <h2>Kontakt</h2>
+               <p>Du hast Interesse an einem Fotoshooting, </p>
+               <p>möchtest ein Projekt mit mir umsetzen oder hast einfach eine Frage zu meiner Arbeit?</p>
+               <p>Dann freue ich mich, von dir zu hören!</p>
+               <p>Egal, ob du eine kreative Idee hast, Unterstützung für ein visuelles Projekt suchst oder</p>
+               <p> auf der Suche nach authentischen Bildern für dein Unternehmen, deine Marke oder dich selbst bist . </p>
+               <p>ich bin offen für vielfältige Anfragen und spannende Kooperationen.</p>
+               <p>Du erreichst mich am besten per E-Mail oder über Instagram.</p>
+               <p>Wenn du lieber telefonieren möchtest, hinterlasse mir einfach eine kurze Nachricht .</p>
+               <p>Alternativ kannst du auch direkt über das Kontaktformular schreiben.</p>
+               <p>Ich beantworte alle Anfragen persönlich und so schnell wie möglich.</p>
+               <p>Gemeinsam finden wir den richtigen Rahmen für dein Vorhaben – ob in der Natur, im urbanen Raum, auf Reisen oder mitten im Geschehen.</p>
+          </article>
+     </section>
+     
+     
+     <section class="row">
+          <div class="col col-12" id="socials">
+               <ul>
+                    <li class="in2 c1"> <a href="#"><img src="img/instagram.svg" alt="Instagram Icon"> @Leothephotographer</a> </li>
+                    <li class="tw2 c1"> <a href="#"><img src="img/twitter.svg" alt="Twitter Icon"> @Leothephotographer</a> </li>
+                    <li class="ln2 c1"> <a href="#"><img src="img/linkedin.svg" alt="LinkedIn Icon"> @Leothephotographer</a> </li>
+               </ul>
+          </div>
+     </section>
+     
+
+     <section class="row">
+          <div class="col col-12 kontakt">
+               <form id="bestellung" action="form/formularverarbeitung.php" method="post">
+                    <fieldset>
+                         <div class="formular">
+                              <legend>1. Kontakt</legend>
+                              <div class="anrede">
+                                   <legend>Anrede</legend>
+                                   <input type="radio" name="anrede" id="anredeFrau_id" value="Frau">
+                                   <label for="anredeFrau_id" class="nofloat">Frau</label>
+                                   <input type="radio" name="anrede" id="anredeHerr_id" value="Herr">
+                                   <label for="anredeHerr_id" class="nofloat">Herr</label>
+                              </div>
+                              <div class="name">
+                                   <label for="name_id">Name<sup>*</sup></label>
+                                   <input type="text" name="name" id="name_id" placeholder="Vorname Nachname" required>
+                              </div>
+                              <div class="email">
+                                   <label for="email_id">E-Mail<sup>*</sup></label>
+                                   <input type="email" name="email" id="email_id" placeholder="beispiel@domain.de" required>
+                              </div>
+                              <div class="strasse">
+                                   <label for="strasse_id">Straße<sup>*</sup></label>
+                                   <input type="text" name="strasse" id="strasse_id" required>
+                              </div>
+                              <div class="plz-ort">
+                                   <label for="plz-ort_id">PLZ und Ort<sup>*</sup></label>
+                                   <input type="text" name="plz-ort" id="plz-ort_id" placeholder="Beispiel: 26135 Oldenburg" required>
+                              </div>
+                              <div class="land">
+                                   <label for="land_id">Land<sup>*</sup></label>
+                                   <select name="land" id="land_id" required>
+                                        <option>Bitte auswählen</option>
+                                        <option value="de">Deutschland</option>
+                                        <option value="at">Österreich</option>
+                                        <option value="ch">Schweiz</option>
+                                   </select>
+                              </div>
+                         </div>
+                    </fieldset>
+                    <button class="buttonb" type="submit">Kontaktiere uns</button>
+               </form>
+          </div>
+     </section>
+</main>
+</body>
+</html>
